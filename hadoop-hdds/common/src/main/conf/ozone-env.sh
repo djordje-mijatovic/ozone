@@ -111,6 +111,8 @@ export OZONE_OS_TYPE=${OZONE_OS_TYPE:-$(uname -s)}
 # interactive way for temporary additions on the command line.
 # export OZONE_CLASSPATH="/some/cool/path/on/your/machine"
 
+export OZONE_CLASSPATH="${OZONE_HOME}/share/ozone/lib/libext/*"
+
 # Should OZONE_CLASSPATH be first in the official CLASSPATH?
 # export OZONE_USER_CLASSPATH_FIRST="yes"
 
