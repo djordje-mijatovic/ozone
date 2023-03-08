@@ -1996,14 +1996,14 @@
 
   <property>
     <name>ozone.acl.authorizer.class</name>
-    <value>org.apache.hadoop.ozone.security.acl.OzoneAccessAuthorizer</value>
+    <value>org.apache.ranger.authorization.ozone.authorizer.RangerOzoneAuthorizer</value>
     <tag>OZONE, SECURITY, ACL</tag>
     <description>Acl authorizer for Ozone.
     </description>
   </property>
   <property>
     <name>ozone.acl.enabled</name>
-    <value>false</value>
+    <value>true</value>
     <tag>OZONE, SECURITY, ACL</tag>
     <description>Key to enable/disable ozone acls.</description>
   </property>
